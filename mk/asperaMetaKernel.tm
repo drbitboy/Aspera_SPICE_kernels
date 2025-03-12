@@ -12,8 +12,6 @@ KPL/MK
     asp_v000.tf
     cdr_3_ck.bc
     svalbard_s-band.prediCkt
-    ndosl_190716_v02.bsp
-    ndosl_190716_v02.tf
     earth_assoc_itrf93.tf
     earth200101990628.bpc
 
@@ -22,8 +20,6 @@ KPL/MK
 \begindata
    KERNELS_TO_LOAD = (
                './geometries/kernels/ck/svalbard_s-band.prediCkt.tc'
-               './geometries/kernels/spk/ndosl_190716_v02.bsp'
-               './geometries/kernels/fk/ndosl_190716_v02.tf'
                './geometries/kernels/sclk/aspera.00000.draft.tsc'
                './geometries/kernels/spk/aspera_sso_10am.bsp'
                './geometries/kernels/spk/de430.bsp'
