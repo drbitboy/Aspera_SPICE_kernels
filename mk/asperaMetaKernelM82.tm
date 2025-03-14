@@ -5,36 +5,25 @@ KPL/MK
 	File Name			    	Description
 	--------------------------  ----------------------------------
     aspera.00000.draft.tsc      
-    aspera_sso_10am.bsp         
-    de430.bsp                   
+    aspera_test.bsp
     naif0012.tls                
-    pck00011_n0066.tpc  
+    pck00011_n0066_sun_earth_moon.tpc  
     asp_v000.tf              
     cdr_3_ck.bc
-    svalbard_s-band.prediCkt
-    earth_assoc_itrf93.tf
-    earth200101990628.bpc
     M82spk.bsp
     M82pck.tpc
-    asp_v00.draftE.tf
-    asp_v00.draftE.ti
+    asp_v000.draftF.ti
 
 \begindata
    KERNELS_TO_LOAD = (
-               './geometries/kernels/ck/svalbard_s-band.prediCkt.tc'
                './geometries/kernels/sclk/aspera.00000.draft.tsc'
-               './geometries/kernels/spk/aspera_sso_10am.bsp'
-               './geometries/kernels/spk/de430.bsp'   
+               './geometries/kernels/spk/aspera_test.bsp'
                './geometries/kernels/lsk/naif0012.tls'
-               './geometries/kernels/pck/pck00011_n0066.tpc'
+               './geometries/kernels/pck/pck00011_n0066_sun_earth_moon.tpc'
                './geometries/kernels/fk/asp_v000.tf'
                './geometries/kernels/ck/cdr_3_ck.bc'
-               './geometries/kernels/fk/earth_assoc_itrf93.tf'
-               './geometries/kernels/pck/earth200101990628.bpc'
                './geometries/brian/M82spk.bsp'
                 './geometries/brian/M82pck.tpc'
-                './geometries/kernels/spk/hst_edited.bsp'
-                './geometries/kernels/fk/asp_v00.draftE.tf'
-               './geometries/kernels/ik/asp_v00.draftE.ti'
+               './geometries/kernels/ik/asp_v000.draftF.ti'
 			   )
-/begintext
+\begintext
