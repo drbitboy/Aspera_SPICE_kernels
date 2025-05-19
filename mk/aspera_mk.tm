@@ -10,8 +10,6 @@ KPL/MK
     pck00011_n0066_sun_earth_moon.tpc  
     asp_v000.tf              
     cdr_3_ck.bc
-    M82spk.bsp
-    M82pck.tpc
     asp_v000.draftF.ti
 
 \begindata
@@ -22,8 +20,6 @@ KPL/MK
                './geometries/kernels/pck/pck00011_n0066_sun_earth_moon.tpc'
                './geometries/kernels/fk/asp_v000.tf'
                './geometries/kernels/ck/cdr_3_ck.bc'
-               './geometries/brian/M82spk.bsp'
-                './geometries/brian/M82pck.tpc'
                './geometries/kernels/ik/asp_v000.draftF.ti'
 			   )
 \begintext
