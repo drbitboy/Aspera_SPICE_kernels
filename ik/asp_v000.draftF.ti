@@ -10,10 +10,10 @@ Instrument Kernel for Aspera Notional spacecraft
       NAIF_BODY_NAME += ( 'ASP_S-BAND' )
       NAIF_BODY_CODE += (     -1999201 )
 
-      NAIF_BODY_NAME += ( 'ASP_SLIT_0' )
+      NAIF_BODY_NAME += ( 'ASP_SLIT_1' )
       NAIF_BODY_CODE += (   -1999301 )
 
-      NAIF_BODY_NAME += ( 'ASP_SLIT_1' )
+      NAIF_BODY_NAME += ( 'ASP_SLIT_2' )
       NAIF_BODY_CODE += (   -1999302 )
 
       \begintext
@@ -65,7 +65,7 @@ Long dimension is along frame X axis (S/C Z axis)
 
       INS-1999301_FOV_CLASS_SPEC       = 'ANGLES'
       INS-1999301_FOV_SHAPE            = 'RECTANGLE'
-      INS-1999301_FOV_FRAME            = 'ASP_SLIT_0'
+      INS-1999301_FOV_FRAME            = 'ASP_SLIT_1'
       INS-1999301_BORESIGHT            = ( 0.0, 0.0, -1.0 )
       INS-1999301_FOV_REF_VECTOR       = ( 1.0, 0.0,  0.0 )
       INS-1999301_FOV_REF_ANGLE        = ( 0.5 )
@@ -78,7 +78,7 @@ Long dimension is along frame X axis (S/C Z axis)
 
       INS-1999302_FOV_CLASS_SPEC       = 'ANGLES'
       INS-1999302_FOV_SHAPE            = 'RECTANGLE'
-      INS-1999302_FOV_FRAME            = 'ASP_SLIT_1'
+      INS-1999302_FOV_FRAME            = 'ASP_SLIT_2'
       INS-1999302_BORESIGHT            = ( 0.0, 0.0, -1.0 )
       INS-1999302_FOV_REF_VECTOR       = ( 1.0, 0.0,  0.0 )
       INS-1999302_FOV_REF_ANGLE        = ( 0.5 )

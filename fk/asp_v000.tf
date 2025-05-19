@@ -37,8 +37,8 @@ The following Aspera notional spacecraft frames are defined in this kernel file:
 
            Slit Instrumnet Frames (-19993xx):
            -----------------------------------
-           ASP_SLIT_0                ASP_SLIT_BASE            FIXED    -1999301
-           ASP_SLIT_1                ASP_SLIT_BASE            FIXED    -1999302
+           ASP_SLIT_1                ASP_SLIT_BASE            FIXED    -1999301
+           ASP_SLIT_2                ASP_SLIT_BASE            FIXED    -1999302
 
    Since the S/C bus attitude with respect to an inertial frame is provided
    by a C-kernel, this frame is defined as a CK-based frame.
@@ -249,8 +249,8 @@ base frame, which is also the nominal S/C Z axis
 
            \begindata
 
-           FRAME_ASP_SLIT_0           = -1999301
-           FRAME_-1999301_NAME        = 'ASP_SLIT_0'
+           FRAME_ASP_SLIT_1           = -1999301
+           FRAME_-1999301_NAME        = 'ASP_SLIT_1'
            FRAME_-1999301_CLASS       = 4
            FRAME_-1999301_CLASS_ID    = -1999301
            FRAME_-1999301_CENTER      = -1999
@@ -261,8 +261,8 @@ base frame, which is also the nominal S/C Z axis
            TKFRAME_-1999301_UNITS     = 'DEGREES'
 
 
-           FRAME_ASP_SLIT_1           = -1999302
-           FRAME_-1999302_NAME        = 'ASP_SLIT_1'
+           FRAME_ASP_SLIT_2           = -1999302
+           FRAME_-1999302_NAME        = 'ASP_SLIT_2'
            FRAME_-1999302_CLASS       = 4
            FRAME_-1999302_CLASS_ID    = -1999302
            FRAME_-1999302_CENTER      = -1999
