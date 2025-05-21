@@ -6,6 +6,7 @@ KPL/MK
 	--------------------------  ----------------------------------
     aspera.00000.draft.tsc      
     aspera_test.bsp
+    galaxies.bsp
     naif0012.tls                
     pck00011_n0066_sun_earth_moon.tpc  
     asp_v000.tf              
@@ -16,6 +17,7 @@ KPL/MK
    KERNELS_TO_LOAD = (
                './geometries/kernels/sclk/aspera.00000.draft.tsc'
                './geometries/kernels/spk/aspera_test.bsp'
+               './geometries/kernels/spk/galaxies.bsp'
                './geometries/kernels/lsk/naif0012.tls'
                './geometries/kernels/pck/pck00011_n0066_sun_earth_moon.tpc'
                './geometries/kernels/fk/asp_v000.tf'
