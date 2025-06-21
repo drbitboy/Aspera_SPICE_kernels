@@ -19,6 +19,8 @@ KPL/MK
                './geometries/kernels/spk/aspera_test.bsp'
                './geometries/kernels/spk/galaxies.bsp'
                './geometries/kernels/lsk/naif0012.tls'
+	       './geometries/fk/earth_assoc_itrf93.tf'
+	       './geometries/pck/earth_itrf_short_test.bpc'
                './geometries/kernels/pck/pck00011_n0066_sun_earth_moon.tpc'
                './geometries/kernels/fk/asp_v000.tf'
                './geometries/kernels/ck/cdr_3_ck.bc'
